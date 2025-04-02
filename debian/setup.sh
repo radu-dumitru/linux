@@ -2,7 +2,7 @@
 
 # su -
 # usermod -aG sudo username
-# apt install update
+# apt install sudo
 
 sudo apt install -y i3 \
 	picom \
