@@ -28,6 +28,7 @@ sudo pacman -S --noconfirm \
 	bluez \
 	bluez-utils \
 	man-db \
+	scrot
 
 echo "Installing fonts"
 FONT_ZIP_PATH="fonts/Hack.zip"

@@ -26,7 +26,8 @@ sudo apt install -y i3 \
 	brightnessctl \
 	arc-theme \
 	papirus-icon-theme \
-	arandr
+	arandr \
+	scrot
 
 sudo systemctl enable lightdm
 
