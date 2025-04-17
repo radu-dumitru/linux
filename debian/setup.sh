@@ -3,6 +3,7 @@
 # su -
 # usermod -aG sudo username
 # apt install sudo
+# make sure ~/projects folder is created
 
 sudo apt install -y i3 \
 	picom \
