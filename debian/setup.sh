@@ -21,7 +21,7 @@ sudo apt install -y i3 \
 	neofetch \
 	unzip \
 	gedit \
-	firefox-esr
+	firefox-esr \
 	neovim \
 	brightnessctl \
 	arc-theme \
@@ -30,6 +30,8 @@ sudo apt install -y i3 \
 	scrot
 
 sudo systemctl enable lightdm
+
+cd ~/projects
 
 git clone https://github.com/radu-dumitru/dotfiles.git
 
@@ -42,6 +44,7 @@ stow --target=$HOME --adopt rofi
 
 git reset --hard
 
+cd ~/projects/linux/debian
 mkdir -p ~/.local/share/fonts
 unzip Hack.zip -d ~/.local/share/fonts/Hack
 fc-cache -fv
